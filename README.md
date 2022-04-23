@@ -28,15 +28,14 @@ After you are done installing the required python libraries, you can setup the c
     "settings": {
         "token": "YOUR_BOT_TOKEN",
         "guild": "YOUR_GUILD_ID",
-        "log-channel": "CHANNEL_ID_FOR_LOGS",
-        "refreshrate": 600
+        "welcome-channel": "CHANNEL_ID_FOR_WELCOMING"
     }
 ```
 `token` - This is the token for your Discord bot, this can be accessed from your Discord account's Developer Portal!
 
 `guild` - This is the ID of the guild/server you want the bot to send notifications in. You can get a Discord guild/server's id by right-clicking on the server icon and pressing the button named **Copy ID**
 
-`log-channel` - This is the ID of the channel you want the bot to send notifications in. You can get a Discord channel's id by right-clicking on the channel and pressing the button named **Copy ID**
+`welcome-channel` - This is the ID of the channel you want the bot to send notifications in. You can get a Discord channel's id by right-clicking on the channel and pressing the button named **Copy ID**
 
 ## **Bot Usage**
 To setup the welcoming image, you can make your own and replace the `welcome.png` file or you can stil to the default background (refer to picture above).
