@@ -1,0 +1,7 @@
+{
+    "settings": {
+        "token": "YOUR_BOT_TOKEN_HERE",
+        "guild": "YOUR_GUILD_ID_HERE",
+        "welcome-channel": "CHANNEL_ID_FOR_WELCOMING"
+    }
+}
