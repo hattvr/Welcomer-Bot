@@ -46,8 +46,8 @@ class Welcomer(commands.Cog):
         pfp = pfp.resize((226,226)) # Resizes the Profilepicture so it fits perfectly in the circle
 
         draw = ImageDraw.Draw(background)
-        welcomeFont = ImageFont.truetype("../Welcomer-Bot/attributes/Fonts/Gotham-Black.otf",100)
-        memberFont = ImageFont.truetype("../Welcomer-Bot/attributes/Fonts/Gotham-Black.otf",42)
+        welcomeFont = ImageFont.truetype("attributes/Fonts/Gotham-Black.otf",100)
+        memberFont = ImageFont.truetype("attributes/Fonts/Gotham-Black.otf",42)
         welcome_text = "WELCOME!"
         member_text = f"You are the {ordinal(len(guild.members))} user"  # <- Text under the Profilepicture with the Membercount
 
