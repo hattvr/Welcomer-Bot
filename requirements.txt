@@ -1,7 +1,6 @@
 git+https://github.com/Rapptz/discord.py
-discord
 asyncio
-sys
 pillow
 ordinal
-io
+
+
